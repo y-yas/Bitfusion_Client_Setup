@@ -41,7 +41,7 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 - client.yaml を ~/.bitfusion にコピーします。
 - servers.conf を ~/.bitfusion にコピーします。
 
-## Add Bitfusion user（enable、token 共通）
+## Add user to bitfusion group（enable、token 共通）
 ---
 ```
 $ cd && ./bf/add_group.sh
