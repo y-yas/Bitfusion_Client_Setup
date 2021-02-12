@@ -14,4 +14,5 @@ sudo apt-get install -y ./bitfusion-client-ubuntu1804_2.5.1-13_amd64.deb
 bitfusion version
 
 #不要ファイル削除
-cd && rm -fr ./bitfusion　&& sleep 10;sudo shutdown -h now
+cd
+rm -fr ./bitfusion　&& sleep 10;sudo shutdown -h now
