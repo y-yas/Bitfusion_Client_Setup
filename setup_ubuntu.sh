@@ -15,4 +15,5 @@ bitfusion version
 
 #不要ファイル削除
 cd
-rm -fr ./bitfusion　&& sleep 10;sudo shutdown -h now
+rm -fr ./bitfusion
+sleep 10;sudo shutdown -h now
