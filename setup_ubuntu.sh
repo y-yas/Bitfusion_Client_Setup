@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt install -y wget 
+sudo apt install -y wget open-vm-tools
 
 #working directory
 mkdir ~/bitfusion
@@ -15,4 +15,3 @@ bitfusion version
 
 #不要ファイル削除
 cd && rm -fr ./bitfusion
- 
