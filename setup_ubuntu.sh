@@ -4,7 +4,7 @@ sudo apt install -y wget open-vm-tools
 
 #working directory
 mkdir ~/bitfusion
-cd ~/bitfurion
+cd ~/bitfusion
 
 #bitfusion version 2.5.1.-13
 wget https://packages.vmware.com/bitfusion/ubuntu/18.04/bitfusion-client-ubuntu1804_2.5.1-13_amd64.deb
