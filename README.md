@@ -14,6 +14,7 @@ $ cd && git clone https://github.com/y-yas/bf/
 
 ## Download Bitfusion client
 ---
+bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 ```
 $ ./bf/setup_ubuntu.sh
 ```
@@ -43,7 +44,7 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 ## Add Bitfusion user（enable、token 共通）
 ---
 ```
-$ cd && ./bf/add_grpup.sh
+$ cd && ./bf/add_group.sh
 ```
 
 
