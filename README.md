@@ -1,4 +1,4 @@
-# Setup Bitfusion Client for Ubuntu18.04
+# Setup Bitfusion Client for Ubuntu
 ## Install Git
 ---
 ```
