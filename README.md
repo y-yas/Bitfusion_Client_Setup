@@ -44,7 +44,7 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 ## Add user to bitfusion group（enable、token 共通）
 ---
 ```
-$ cd && ./bf/add_group.sh
+$ sudo usermod -aG bitfusion $USER
 ```
 
 
