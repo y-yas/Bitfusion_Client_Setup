@@ -1,5 +1,6 @@
 # Setup Bitfusion Client for Ubuntu
 ## Install Git
+
 ---
 ```
 $ sudo apt update
