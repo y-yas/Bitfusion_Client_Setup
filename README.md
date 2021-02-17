@@ -10,14 +10,14 @@ $ sudo apt -y install git
 ## Clone repogitory
 ---
 ```
-$ cd && git clone https://github.com/y-yas/bf/
+$ cd && git clone https://github.com/y-yas/Bitfusion_Client_Setup/
 ```
 
 ## Download Bitfusion client
 ---
 bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 ```
-$ ./bf/setup_ubuntu.sh
+$ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 
 ## Enable Bitfusion client 
