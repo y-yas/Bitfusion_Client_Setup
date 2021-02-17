@@ -7,6 +7,5 @@ sudo pip3 install jupyterlab
 ipython kernel install --prefix ~/tmp
 
 
- cd ~/tmp/share/jupyter/kernels/
- mv python3/ bitfusion-basic
- cat  > kernel.json
+ mv ~/tmp/share/jupyter/kernels/python3/ ~/tmp/share/jupyter/kernels/python3/bitfusion-basic
+ cat  ./Bitfusion_> kernel.json
