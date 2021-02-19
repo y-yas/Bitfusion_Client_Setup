@@ -1,6 +1,6 @@
 #!/bin/bash
 distribution=$(. /etc/os-release;echo $VERSION_ID)
-gitdir=$(~/Bitfusion_Client_Setup)
+gitdir=$(~/Bitfusion_Client_Setup/)
 
 sudo apt-get update
 
