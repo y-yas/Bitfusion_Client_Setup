@@ -47,5 +47,7 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 ```
 $ sudo usermod -aG bitfusion $USER
 ```
+再ログイン
+
 
 
