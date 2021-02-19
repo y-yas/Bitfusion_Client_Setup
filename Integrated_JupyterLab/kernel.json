@@ -5,7 +5,7 @@
         "bitfusion",
         "run",
         "-n",
-        "1",
+        "1", 
         "/usr/bin/python3 -m ipykernel_launcher –f {connection_file}"
         ]
 }
