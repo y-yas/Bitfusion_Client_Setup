@@ -38,9 +38,9 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 4. リストからトークンを選択し、[ダウンロード] をクリックして、tar ファイルをローカル マシンに保存
 5. tar ファイルをクライアント マシンのファイルシステムにコピーし、解凍
 
-- ca.crt を /etc/bitfusion/tls にコピーします。
-- client.yaml を ~/.bitfusion にコピーします。
-- servers.conf を ~/.bitfusion にコピーします。
+- ca.crt を /etc/bitfusion/tls にコピー
+- client.yaml を ~/.bitfusion にコピー
+- servers.conf を ~/.bitfusion にコピー
 
 ## Add user to bitfusion group（enable、token 共通）
 ---
