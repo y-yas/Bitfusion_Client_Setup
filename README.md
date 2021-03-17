@@ -1,5 +1,6 @@
 # Setup Bitfusion Client for Ubuntu
 ## Install Git
+
 ---
 ```
 $ sudo apt update
@@ -9,14 +10,14 @@ $ sudo apt -y install git
 ## Clone repogitory
 ---
 ```
-$ cd && git clone https://github.com/y-yas/bf/
+$ cd && git clone https://github.com/y-yas/Bitfusion_Client_Setup/
 ```
 
 ## Download Bitfusion client
 ---
 bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 ```
-$ ./bf/setup_ubuntu.sh
+$ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 
 ## Enable Bitfusion client 
@@ -37,14 +38,16 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 4. リストからトークンを選択し、[ダウンロード] をクリックして、tar ファイルをローカル マシンに保存
 5. tar ファイルをクライアント マシンのファイルシステムにコピーし、解凍
 
-- ca.crt を /etc/bitfusion/tls にコピーします。
-- client.yaml を ~/.bitfusion にコピーします。
-- servers.conf を ~/.bitfusion にコピーします。
+- ca.crt を /etc/bitfusion/tls にコピー
+- client.yaml を ~/.bitfusion にコピー
+- servers.conf を ~/.bitfusion にコピー
 
 ## Add user to bitfusion group（enable、token 共通）
 ---
 ```
 $ sudo usermod -aG bitfusion $USER
 ```
+再ログイン
+
 
 
