@@ -20,9 +20,14 @@ bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 
-## Enable Bitfusion client 
+```
+https://my.vmware.com/en/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere_bitfusion/3_0
+```
+
+
+## Enable Bitfusion client
 ---
-Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施  
+Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 対象のクライアントサーバはEnable前にPowerOff
 
 ![Enable_img](./images/enable.png)
