@@ -2,9 +2,16 @@
 ## Install Git
 
 ---
+### for Ubuntu
 ```
 $ sudo apt update
 $ sudo apt -y install git
+```
+
+### for Centos
+```
+$ sudo yum -y update
+$ sudo yum -y install git
 ```
 
 ## Clone repogitory
@@ -13,17 +20,24 @@ $ sudo apt -y install git
 $ cd && git clone https://github.com/y-yas/Bitfusion_Client_Setup/
 ```
 
-## Download Bitfusion client
+## Download & Install Bitfusion client
+
+### for Ubuntu
 ---
 bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 ```
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 
-```
-https://my.vmware.com/en/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere_bitfusion/3_0
-```
+### for Centos
 
+以下サイトからCentOS用Bitfusin Client 3.0.1-4をホームディレクトリにダウンロード
+https://my.vmware.com/en/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere_bitfusion/3_0
+
+
+```
+$ ./Bitfusion_Client_Setup/setup_centos.sh
+```
 
 ## Enable Bitfusion client
 ---
