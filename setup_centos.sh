@@ -21,7 +21,7 @@ rpm --import https://packages.vmware.com/bitfusion/vmware.bitfusion.key
 #wget https://packages.vmware.com/bitfusion/ubuntu/$distribution/bitfusion-client-ubuntu1804_2.5.1-13_amd64.deb
 #sudo apt-get install -y ./bitfusion-client-ubuntu1804_2.5.1-13_amd64.deb
 
-yum install -y ./bitfusion-client-centos$VERSION-3.0.0-11.x86_64.rpm
+yum install -y ./bitfusion-client-centos$VERSION-3.0.1-4.x86_64.rpm
 
 #version確認
 bitfusion version
