@@ -8,7 +8,7 @@ $ sudo apt update
 $ sudo apt -y install git
 ```
 
-### for Centos
+### for Centos7,8
 ```
 $ sudo yum -y update
 $ sudo yum -y install git
@@ -29,7 +29,7 @@ bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 
-### for Centos
+### for Centos7,8
 
 以下サイトからCentOS用Bitfusin Client 3.0.1-4をホームディレクトリにダウンロード
 https://my.vmware.com/en/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere_bitfusion/3_0
