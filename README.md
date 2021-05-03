@@ -2,7 +2,7 @@
 ## Install Git
 
 ---
-### for Ubuntu
+### for Ubuntu 16.04,18.04,20.04
 ```
 $ sudo apt update
 $ sudo apt -y install git
@@ -10,7 +10,6 @@ $ sudo apt -y install git
 
 ### for Centos7,8
 ```
-$ sudo yum -y update
 $ sudo yum -y install git
 ```
 
