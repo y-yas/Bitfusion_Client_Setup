@@ -24,7 +24,7 @@ $ cd && git clone https://github.com/y-yas/Bitfusion_Client_Setup/
 
 ### for Ubuntu
 ---
-bitfusion version 2.5.1.-13(2021/02/12時点での最新)をインストール
+bitfusion version 3.0.1-14(2021/05/03時点での最新)をインストール
 ```
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
