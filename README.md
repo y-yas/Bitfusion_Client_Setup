@@ -23,7 +23,8 @@ $ cd && git clone https://github.com/y-yas/Bitfusion_Client_Setup/
 
 ### for Ubuntu
 ---
-bitfusion version 3.0.1-14(2021/05/03時点での最新)をインストール
+bitfusion version 3.0.1-14(2021/05/03時点での最新)をインストール　
+　※インストール後PowerOff
 ```
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
@@ -50,9 +51,9 @@ Bitfusionサーバと同一vCenterインスタンスの場合はEnableを実施
 ---
 ベアメタルサーバ、Bitfusionサーバとは別のｖCenterで管理される仮想マシンの場合はTokenを利用
 
-1. vSphere Client で、[メニュー ] > [[Bitfusion]] 
-2. [トークン] タブで [新規トークン] 
-3. [トークンの作成] ダイアログ ボックスで、説明を入力し、[作成] 
+1. vSphere Client で、[メニュー ] > [[Bitfusion]]
+2. [トークン] タブで [新規トークン]
+3. [トークンの作成] ダイアログ ボックスで、説明を入力し、[作成]
 4. リストからトークンを選択し、[ダウンロード] をクリックして、tar ファイルをローカル マシンに保存
 5. tar ファイルをクライアント マシンのファイルシステムにコピーし、解凍
 
