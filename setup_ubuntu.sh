@@ -14,6 +14,8 @@ cd ~/bitfusion
 wget https://packages.vmware.com/bitfusion/ubuntu/$distribution/bitfusion-client-ubuntu1804_3.0.1-4_amd64.deb
 sudo apt-get install -y ./bitfusion-client-ubuntu1804_3.0.1-4_amd64.deb
 
+sudo usermod -aG bitfusion $USER
+
 #version確認
 bitfusion version
 
