@@ -29,10 +29,8 @@ bitfusion version 4.0.0-13(2021/08/12時点での最新)をインストール　
 $ ./Bitfusion_Client_Setup/setup_ubuntu.sh
 ```
 ### for Centos7,8
-
-以下サイトからCentOS用Bitfusin Client 3.0.0をホームディレクトリにダウンロード
-https://my.vmware.com/en/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere_bitfusion/4_0
-
+bitfusion version 4.0.0-13(2021/08/12時点での最新)をインストール　
+　※インストール後PowerOff
 
 ```
 $ ./Bitfusion_Client_Setup/setup_centos.sh
