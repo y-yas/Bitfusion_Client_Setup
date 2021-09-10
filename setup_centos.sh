@@ -12,10 +12,10 @@ rpm --import https://packages.vmware.com/bitfusion/vmware.bitfusion.key
 
 
 #Client Download and Install
-#2021年4月14日での最新バージョン
+#2021年8月12日での最新バージョン
 
-gunzip ./bitfusion-client-centos$VERSION-3.0.1-4.x86_64.rpm.gz
-yum install -y ./bitfusion-client-centos$VERSION-3.0.1-4.x86_64.rpm
+#gunzip ./bitfusion-client-centos$VERSION-3.0.1-4.x86_64.rpm.gz
+yum install -y ./bitfusion-client-$VERSION-4.0.0-13.x86_64.rpm
 
 #version確認
 bitfusion version

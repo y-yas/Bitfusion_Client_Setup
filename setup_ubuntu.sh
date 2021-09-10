@@ -10,9 +10,9 @@ sudo apt install -y wget open-vm-tools
 mkdir ~/bitfusion
 cd ~/bitfusion
 
-#bitfusion version 3.0.1-4 20210503
-wget https://packages.vmware.com/bitfusion/ubuntu/$distribution/bitfusion-client-ubuntu1804_3.0.1-4_amd64.deb
-sudo apt-get install -y ./bitfusion-client-ubuntu1804_3.0.1-4_amd64.deb
+#bitfusion version 4.0.0-13 20210503
+wget https://packages.vmware.com/bitfusion/ubuntu/$distribution/bitfusion-client-ubuntu1804_4.0.0-13_amd64.deb
+sudo apt-get install -y ./bitfusion-client-ubuntu1804_4.0.0-13_amd64.deb
 
 sudo usermod -aG bitfusion $USER
 
