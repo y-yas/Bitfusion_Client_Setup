@@ -2,7 +2,7 @@
 ## Install Git
 
 ---
-### for Ubuntu 18.04, 20.04
+### for Ubuntu 18.04
 ```
 $ sudo apt update
 $ sudo apt -y install git
